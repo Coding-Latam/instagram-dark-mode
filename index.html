@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <label class="switch" id="switch">
+      <input type="checkbox" />
+      <span class="slider round" onclick="changeMode()"></span>
+    </label>
+    <div class="container">
+      <div class="stories">
+        <div class="story">
+          <div class="story__image">
+            <img src="/person.svg" alt="" />
+          </div>
+          <div class="story__profile">
+            <p>Angelo Leva</p>
+          </div>
+        </div>
+        <div class="story">
+          <div class="story__image">
+            <img src="/person.svg" alt="" />
+          </div>
+          <div class="story__profile">
+            <p>Angelo Leva</p>
+          </div>
+        </div>
+        <div class="story">
+          <div class="story__image">
+            <img src="/person.svg" alt="" />
+          </div>
+          <div class="story__profile">
+            <p>Angelo Leva</p>
+          </div>
+        </div>
+        <div class="story">
+          <div class="story__image">
+            <img src="/person.svg" alt="" />
+          </div>
+          <div class="story__profile">
+            <p>Angelo Leva</p>
+          </div>
+        </div>
+        <div class="story">
+          <div class="story__image">
+            <img src="/person.svg" alt="" />
+          </div>
+          <div class="story__profile">
+            <p>Angelo Leva</p>
+          </div>
+        </div>
+      </div>
+      <div class="feed">
+        <div class="feed__item">
+          <div class="feed__user">
+            <div class="feed__profile">
+              <img src="/person.svg" alt="" />
+            </div>
+            <div class="feed__username"><p>angelolev</p></div>
+          </div>
+          <div class="feed__image">
+            <img src="/photo.jpg" alt="" />
+          </div>
+          <div class="feed__description">
+            <p>
+              <strong>angelolev</strong> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Consectetur saepe voluptate minus voluptas
+              repudiandae enim ad nihil exercitationem vero fuga, eos laudantium
+              in dolorum, provident dicta quis sunt hic est.
+            </p>
+          </div>
+        </div>
+        <div class="feed__item">
+          <div class="feed__user">
+            <div class="feed__profile">
+              <img src="/person.svg" alt="" />
+            </div>
+            <div class="feed__username"><p>angelolev</p></div>
+          </div>
+          <div class="feed__image">
+            <img src="/photo.jpg" alt="" />
+          </div>
+          <div class="feed__description">
+            <p>
+              <strong>angelolev</strong> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Consectetur saepe voluptate minus voluptas
+              repudiandae enim ad nihil exercitationem vero fuga, eos laudantium
+              in dolorum, provident dicta quis sunt hic est.
+            </p>
+          </div>
+        </div>
+        <div class="feed__item">
+          <div class="feed__user">
+            <div class="feed__profile">
+              <img src="/person.svg" alt="" />
+            </div>
+            <div class="feed__username"><p>angelolev</p></div>
+          </div>
+          <div class="feed__image">
+            <img src="/photo.jpg" alt="" />
+          </div>
+          <div class="feed__description">
+            <p>
+              <strong>angelolev</strong> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Consectetur saepe voluptate minus voluptas
+              repudiandae enim ad nihil exercitationem vero fuga, eos laudantium
+              in dolorum, provident dicta quis sunt hic est.
+            </p>
+          </div>
+        </div>
+        <div class="feed__item">
+          <div class="feed__user">
+            <div class="feed__profile">
+              <img src="/person.svg" alt="" />
+            </div>
+            <div class="feed__username"><p>angelolev</p></div>
+          </div>
+          <div class="feed__image">
+            <img src="/photo.jpg" alt="" />
+          </div>
+          <div class="feed__description">
+            <p>
+              <strong>angelolev</strong> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Consectetur saepe voluptate minus voluptas
+              repudiandae enim ad nihil exercitationem vero fuga, eos laudantium
+              in dolorum, provident dicta quis sunt hic est.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function changeMode() {
+        let bodyContent = document.querySelector("body");
+        bodyContent.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>

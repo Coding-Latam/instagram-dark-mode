@@ -1,0 +1,14 @@
+.story {
+  &__image {
+    img {
+      max-width: 50px;
+    }
+  }
+
+  &__profile {
+    p {
+      font-size: 10px;
+      margin: 0;
+    }
+  }
+}
