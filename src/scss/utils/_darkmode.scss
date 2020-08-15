@@ -1,49 +1,63 @@
 // Si quieres detectar automaticamente el dark
 // mode dependiendo de la configuracion de tus usuarios,
 // descomenta esto
-// @media (prefers-color-scheme: dark) {
-// .feed {
-//     background-color: #34495e;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2c3e50;
+  }
+  .feed {
+    background-color: transparent;
 
-//     &__description,
-//     &__username {
-//       color: #fff;
-//     }
-//   }
-//   .stories {
-//     background-color: #2c3e50;
-//   }
+    &__description,
+    &__username {
+      color: #fff;
+    }
+  }
+  .suggestions {
+    p {
+      color: #fff;
+    }
+  }
+  .stories {
+    background-color: #2c3e50;
+  }
 
-//   .story {
-//     &__profile {
-//       p {
-//         color: #fff;
-//       }
-//     }
-//   }
-// }
-
-// Activar dark mode de forma manual
-body {
-  &.dark {
-    .feed {
-      background-color: #34495e;
-
-      &__description,
-      &__username {
+  .story {
+    &__profile {
+      p {
         color: #fff;
-      }
-    }
-    .stories {
-      background-color: #2c3e50;
-    }
-
-    .story {
-      &__profile {
-        p {
-          color: #fff;
-        }
       }
     }
   }
 }
+
+// Activar dark mode de forma manual
+// body {
+//   &.dark {
+//     background-color: #2c3e50;
+//     .feed {
+//       background-color: #34495e;
+
+//       &__description,
+//       &__username {
+//         color: #fff;
+//       }
+//     }
+//     .suggestions {
+//       p {
+//         color: #fff;
+//       }
+//     }
+//     .stories {
+//       background-color: #2c3e50;
+//     }
+
+//     .story {
+//       &__profile {
+//         p {
+//           color: #fff;
+//         }
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,26 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: $tablet) {
+    max-width: 80%;
+  }
+
+  @media (min-width: $large) {
+    display: flex;
+  }
+
+  .content {
+    width: 100%;
+
+    @media (min-width: $large) {
+      width: 70%;
+    }
+  }
+
+  .suggestions {
+    @media (min-width: $large) {
+      width: 30%;
+    }
+  }
+}

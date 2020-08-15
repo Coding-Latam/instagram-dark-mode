@@ -1,5 +1,8 @@
+@import "./src/scss/base/variables";
 @import "./src/scss/base/base";
+@import "./src/scss/base/commons";
 @import "./src/scss/components/feed";
 @import "./src/scss/components/story";
 @import "./src/scss/components/switch";
+@import "./src/scss/components/suggestions";
 @import "./src/scss/utils/darkmode";

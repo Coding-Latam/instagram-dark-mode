@@ -1,4 +1,8 @@
 .story {
+  @media (min-width: $tablet) {
+    padding-right: 20px;
+  }
+
   &__image {
     img {
       max-width: 50px;

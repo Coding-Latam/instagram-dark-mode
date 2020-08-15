@@ -1,0 +1,33 @@
+.suggestions {
+  display: none;
+
+  @media (min-width: $large) {
+    display: block;
+    padding-left: 20px;
+  }
+
+  &__list {
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    .item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .item__image {
+        img {
+          width: 50px;
+        }
+      }
+
+      .item__name {
+        padding-left: 10px;
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
